@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
 body {
     background: url("background.jpg");
+    color: rgb(2, 165, 38);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Indie Flower";
 }
 
-.main-title {
+p, ol {
+    background: white;
+    display: table;
+}
+
+.main-titles {
+    background: rgb(110, 105, 105);
     text-align: center;
+}
+
+.page-title {
+    color: red;
 }
 
 #band-photo {
@@ -29,5 +45,10 @@ body {
     border: 2px dotted rgb(0, 0, 0);
     padding: 10px;
     margin: 15px 10px 10px 10px;
-    color: rgb(0, 128, 0);
+    color: rgb(187, 255, 0);
+}
+
+.member-name {
+    background: black;
+    display: table;
 }
